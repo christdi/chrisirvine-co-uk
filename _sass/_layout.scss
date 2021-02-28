@@ -214,6 +214,7 @@
 }
 
 .post-content {
+    text-align: justify;
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -239,4 +240,8 @@
             font-size: 18px;
         }
     }
+}
+
+.post-excert {
+    text-align: justify;
 }
