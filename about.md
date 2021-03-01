@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Contained here-in are articles and musings on Software Development and other topics which interest me.
+This site acts as a personal publishing platform for Christopher Irvine, a Software Engineer based in the UK with over 10 years of experience.

@@ -13,10 +13,9 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         
-        <div class="post-excert">{{ post.excerpt }}</div>
+        <div class="post-excert">{{ post.description | markdownify }}</div>
 
-        <small><a href="{{ post.url | prepend: site.baseurl }}">(Click for full post)</a></small>
-
+        <small><a href="{{ post.url | prepend: site.baseurl }}">(Read more)</a></small>
       </li>
     {% endfor %}
   </ul>

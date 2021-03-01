@@ -67,6 +67,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    list-style-type: circle;
 }
 
 li {
@@ -74,6 +75,8 @@ li {
     > ol {
          margin-bottom: 0;
     }
+
+    margin: 10px 0;
 }
 
 
@@ -84,7 +87,6 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-
 
 
 /**
@@ -173,7 +175,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -204,4 +205,3 @@ pre {
         }
     }
 }
-
