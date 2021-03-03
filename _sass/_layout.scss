@@ -145,7 +145,7 @@
 }
 
 .post-link {
-    display: block;
+    display: inline;
     font-size: 24px;
 }
 
@@ -167,7 +167,6 @@
 }
 
 .post-content {
-    text-align: justify;
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -195,6 +194,19 @@
     }
 }
 
-.post-excert {
-    text-align: justify;
+.post-tags {    
+    margin-bottom: $spacing-unit / 2;
+}
+
+.post-tag {
+    background-color: $brand-color;
+    color: $light-text-color !important;    
+    border-radius: 10px;
+    padding: 6px;
+    margin: 1px;
+    border: 1px $grey-color-light solid;
+
+    &:hover {
+        text-decoration: none;
+    }
 }

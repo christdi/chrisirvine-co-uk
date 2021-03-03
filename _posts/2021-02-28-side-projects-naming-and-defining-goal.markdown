@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "[Side Projects] Naming the new project and defining our goal for an MVP
+title:  "Naming our new side project and defining our goal"
 date:   2021-03-01
-categories: development
+categories: [development]
+tags: [side-projects, agile]
 description: |-
-   Coming up with a name and a look into my process of defining the goal for our new side project.
+   This article looks into one of the most difficult task in software development; naming something.
+   
+
+   We'll also take a look into defining a goal to capture what we want to accomplish with our new project.
 ---
 
-I'm going to use the name "Covenstead" for the side project going forward.  It's the setting that I was involved in creating for a past swing at this that actually got pretty far along.  I'm going to re-use it as I really liked the setting.  More on that in future articles.
+I'm going to use the name "Covenstead" for the side project going forward.  It's a setting that I was involved in creating for a past swing at this that actually got pretty far along.  I'm going to re-use it as I really liked the setting.  More on that in future articles.
 
 The first stage in getting our new project off the ground the Right Way™ is to define our goal.  Let’s start with the most basic idea and then try to evolve it into something a bit more specific.
 

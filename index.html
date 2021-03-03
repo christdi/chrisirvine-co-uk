@@ -10,8 +10,18 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
+          {% for category in post.categories %}
+            <a class="post-link">[{{ category | capitalize }}]</a>
+          {% endfor %}
+          
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <div class="post-tags">
+          {% for tag in post.tags %}
+            <a class="post-tag" href="">{{ tag }}</a>
+          {% endfor %}
+        </div>
         
         <div class="post-excert">{{ post.description | markdownify }}</div>
 
