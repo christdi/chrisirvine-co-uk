@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "[Side Projects] Easy to start, hard to release"
+title:  "Side projects are easy to start but hard to release"
 date:   2021-02-28
-categories: mud
+categories: [development]
+tags: [side-projects]
 description: |-
    The first in a series of articles which takes a look at why some developers, myself included, struggle to make real headway on our side projects.
 
